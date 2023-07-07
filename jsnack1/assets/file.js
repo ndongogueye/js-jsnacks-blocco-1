@@ -3,8 +3,8 @@ let cognomi = ["Rossi", "Bianchi", "Verdi", "Russo", "Ferrari", "Esposito"];
 
 
 
-    let nomeCasuale = nomi [Math.floor(Math.random() * nomi.lengt)];
-    let cognomeCasuale = cognomi [Math.floor(Math.random() * cognomi.lengt)];
+    let nomeCasuale = nomi [Math.floor(Math.random() * nomi.length)];
+    let cognomeCasuale = cognomi [Math.floor(Math.random() * cognomi.length)];
 
 
     console.log(nomeCasuale + cognomeCasuale)
